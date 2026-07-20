@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18327905346"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-18327905346');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18327905346"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18327905346');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - G EVENTS</title>
-    <meta name="description" content="Get in touch with G EVENTS. We'd love to hear from you about partnerships, volunteering, or attending our events.">
+    <title>Contact Us - G EVENTS ASBL</title>
+    <meta name="description" content="Get in touch with G EVENTS ASBL. Contact us for information about our events, partnerships, volunteering opportunities, or any other questions.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -35,41 +35,25 @@
                 <li><a href="mission.html">Our Mission</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="governance.html">Governance</a></li>
+                <li><a href="donate.html" class="nav-donate">Donate</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
-                <li><a href="https://payhip.com/ProEbookStore" target="_blank" rel="noopener noreferrer" class="nav-store">Store</a></li>
             </ul>
         </div>
     </nav>
 
     <header class="page-header">
         <div class="container">
-            <span class="section-tag">Contact</span>
-            <h1>Get In Touch</h1>
-            <p>Have a question, want to partner with us, or interested in volunteering? We'd love to hear from you.</p>
+            <h1>Contact Us</h1>
+            <p>We would love to hear from you. Whether you have a question, want to volunteer, or are interested in partnering with us, get in touch.</p>
         </div>
     </header>
-    <section class="section store-section">
-        <div class="container">
-            <div class="store-banner">
-                <div class="store-content">
-                    <span class="store-tag">Our Store</span>
-                    <h2>Explore Our Collection</h2>
-                    <p>Discover ebooks, guides, and digital resources created by G EVENTS. Your purchase supports our mission to enrich communities through culture and education.</p>
-                    <a href="https://payhip.com/ProEbookStore" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-store">Visit Our Store →</a>
-                </div>
-                <div class="store-visual">
-                    <span class="store-icon">📖</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <section class="section">
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-form-wrapper">
                     <h2>Send Us a Message</h2>
-                    <form class="contact-form" id="contactForm">
+                    <form id="contactForm">
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="firstName">First Name *</label>
@@ -80,86 +64,69 @@
                                 <input type="text" id="lastName" name="lastName" required>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email Address *</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="subject">Subject *</label>
                             <select id="subject" name="subject" required>
                                 <option value="">Select a subject</option>
-                                <option value="partnership">Partnership Opportunity</option>
-                                <option value="volunteering">Volunteering</option>
-                                <option value="events">Event Information</option>
-                                <option value="media">Media Inquiry</option>
-                                <option value="donation">Donations</option>
-                                <option value="other">Other</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                                <option value="Event Information">Event Information</option>
+                                <option value="Volunteering">Volunteering</option>
+                                <option value="Partnership">Partnership</option>
+                                <option value="Donation">Donation</option>
+                                <option value="Press & Media">Press &amp; Media</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message *</label>
-                            <textarea id="message" name="message" rows="6" required></textarea>
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" required></textarea>
                         </div>
                         <div class="form-group">
                             <label class="checkbox-label">
-                                <input type="checkbox" id="privacy" name="privacy" required>
-                                <span class="checkmark"></span>
-                                I agree to the <a href="privacy.html">Privacy Policy</a> and consent to the processing of my personal data. *
+                                <input type="checkbox" name="privacy" required>
+                                I agree to the <a href="privacy.html">Privacy Policy</a> and consent to the processing of my personal data.
                             </label>
                         </div>
                         <button type="submit" class="btn btn-primary btn-full">Send Message</button>
                     </form>
                 </div>
-
                 <div class="contact-info-wrapper">
                     <div class="contact-card">
                         <h3>Contact Information</h3>
                         <div class="contact-details">
                             <div class="contact-item">
-                                <span class="contact-icon">📍</span>
+                                <span class="contact-icon">&#128205;</span>
                                 <div>
                                     <strong>Address</strong>
                                     <p>G EVENTS ASBL<br>Wijnheuvelenstraat 308-310<br>Box 5103, 1030 Schaarbeek<br>Belgium</p>
                                 </div>
                             </div>
                             <div class="contact-item">
-                                <span class="contact-icon">📧</span>
+                                <span class="contact-icon">&#128231;</span>
                                 <div>
                                     <strong>Email</strong>
                                     <p><a href="mailto:markluismr@gmail.com">markluismr@gmail.com</a></p>
                                 </div>
                             </div>
                             <div class="contact-item">
-                                <span class="contact-icon">📞</span>
+                                <span class="contact-icon">&#128222;</span>
                                 <div>
                                     <strong>Phone</strong>
                                     <p><a href="tel:+32470123456">+32 470 12 34 56</a></p>
                                 </div>
                             </div>
-                            <div class="contact-item">
-                                <span class="contact-icon">🕐</span>
-                                <div>
-                                    <strong>Office Hours</strong>
-                                    <p>Monday - Friday: 9:00 - 17:00<br>Saturday - Sunday: Closed</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
-
-                    <div class="contact-card">
-                        <h3>Organization Details</h3>
-                        <ul class="info-list">
-                            <li><strong>Legal Name:</strong> G EVENTS ASBL</li>
-                            <li><strong>Enterprise Number:</strong> 0817.543.912</li>
-                            <li><strong>VAT Number:</strong> BE0817543912</li>
-                            <li><strong>Legal Form:</strong> Non-Profit Association (ASBL)</li>
-                        </ul>
-                    </div>
-
                     <div class="contact-card">
                         <h3>Follow Us</h3>
                         <div class="social-links">
@@ -168,6 +135,15 @@
                             <a href="#" class="social-btn">Instagram</a>
                         </div>
                     </div>
+                    <div class="contact-card">
+                        <h3>Organization Details</h3>
+                        <ul class="info-list">
+                            <li><strong>Legal Form:</strong> ASBL (Non-Profit)</li>
+                            <li><strong>Enterprise:</strong> 0817.543.912</li>
+                            <li><strong>VAT:</strong> BE0817543912</li>
+                            <li><strong>Founded:</strong> July 9, 2009</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -175,24 +151,37 @@
 
     <section class="section section-alt">
         <div class="container">
-            <h2 class="text-center">Frequently Asked Questions</h2>
+            <div class="section-header">
+                <span class="section-tag">FAQ</span>
+                <h2>Frequently Asked Questions</h2>
+                <p>Find answers to common questions about G EVENTS ASBL and our work.</p>
+            </div>
             <div class="faq-list">
                 <div class="faq-item">
                     <button class="faq-question">
-                        How can I volunteer for G EVENTS?
+                        What is G EVENTS ASBL?
                         <span class="faq-toggle">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>We welcome volunteers! Contact us using the form above or email us at <a href="mailto:markluismr@gmail.com">markluismr@gmail.com</a> with "Volunteer" in the subject line. We'll get back to you with information about upcoming volunteer opportunities.</p>
+                        <p>G EVENTS ASBL is a Belgian non-profit association founded in 2009, dedicated to organizing cultural, sporting, and educational events that enrich communities across Belgium. We are registered as an ASBL under Belgian law with enterprise number 0817.543.912.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">
-                        How can my organization partner with G EVENTS?
+                        How can I attend your events?
                         <span class="faq-toggle">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>We're always open to partnerships that align with our mission. Please reach out using the contact form or email us directly. We'll discuss potential collaboration opportunities that benefit both organizations and the communities we serve.</p>
+                        <p>Many of our events are free and open to the public. Check our Events page for upcoming events and details on registration or admission. Some events may require advance registration due to capacity limits.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How can I volunteer with G EVENTS?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We welcome volunteers! Contact us through the form on this page or send an email to markluismr@gmail.com expressing your interest. We will get back to you with information about upcoming volunteer opportunities.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -201,25 +190,25 @@
                         <span class="faq-toggle">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Thank you for your interest in supporting our work! As a non-profit, donations help us continue organizing impactful events. Contact us for information on how to make a donation. All donations are used exclusively for our mission.</p>
+                        <p>You can support our work by making a bank transfer to our Belgian IBAN account. Visit our <a href="donate.html">Donate page</a> for full details including our IBAN, BIC, and information on how your donation will be used.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">
-                        Are your events free to attend?
+                        Can my organization partner with G EVENTS?
                         <span class="faq-toggle">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>Some of our events are free, while others may have a small entry fee to cover organizational costs. Check our Events page for details on specific events. We always strive to keep our events accessible and affordable.</p>
+                        <p>Absolutely! We are always looking for partners who share our commitment to community enrichment. Whether you are a cultural institution, educational organization, business, or community group, we would love to explore how we can work together. Contact us to start the conversation.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">
-                        How can I submit a proposal for an event?
+                        Are donations to G EVENTS tax-deductible?
                         <span class="faq-toggle">+</span>
                     </button>
                     <div class="faq-answer">
-                        <p>We welcome event proposals that align with our mission. Please send your proposal to <a href="mailto:markluismr@gmail.com">markluismr@gmail.com</a> with a detailed description of your idea, including objectives, target audience, and proposed format.</p>
+                        <p>As a Belgian ASBL, donations may be eligible for tax benefits under Belgian tax law. We recommend consulting with your tax advisor for specific guidance on the tax implications of your donation. Contact us if you need a donation receipt.</p>
                     </div>
                 </div>
             </div>
@@ -234,7 +223,12 @@
                         <span class="logo-icon">G</span>
                         <span class="logo-text">EVENTS</span>
                     </a>
-                    <p class="footer-desc">A Belgian non-profit organization dedicated to enriching communities through cultural, sporting, and educational events.</p>
+                    <p class="footer-desc">G EVENTS ASBL is a Belgian non-profit organization dedicated to enriching communities through cultural, sporting, and educational events. Enterprise: 0817.543.912 | VAT: BE0817543912</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+                        <a href="#" aria-label="LinkedIn" class="social-link">LinkedIn</a>
+                        <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+                    </div>
                 </div>
                 <div class="footer-col">
                     <h4>Quick Links</h4>
@@ -243,7 +237,7 @@
                         <li><a href="mission.html">Our Mission</a></li>
                         <li><a href="events.html">Events</a></li>
                         <li><a href="governance.html">Governance</a></li>
-                        <li><a href="https://payhip.com/ProEbookStore" target="_blank" rel="noopener noreferrer">Our Store</a></li>
+                        <li><a href="donate.html">Donate</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -252,6 +246,7 @@
                         <li><a href="privacy.html">Privacy Policy</a></li>
                         <li><a href="terms.html">Terms of Service</a></li>
                         <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                        <li><a href="transparency.html">Transparency</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -264,7 +259,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 G EVENTS ASBL. All rights reserved. Enterprise number: 0817.543.912 | VAT: BE0817543912</p>
+                <p>&copy; 2025 G EVENTS ASBL. All rights reserved. Enterprise: 0817.543.912 | VAT: BE0817543912</p>
             </div>
         </div>
     </footer>

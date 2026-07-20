@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18327905346"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18327905346');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate - G EVENTS ASBL</title>
+    <meta name="description" content="Support G EVENTS ASBL with a donation. Your contribution helps us organize cultural, sporting, and educational events that enrich communities across Belgium.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">G</span>
+                <span class="logo-text">EVENTS</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="mission.html">Our Mission</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="governance.html">Governance</a></li>
+                <li><a href="donate.html" class="active nav-donate">Donate</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="donate-hero">
+        <div class="container">
+            <h1>Support Our Mission</h1>
+            <p>Your donation helps us organize cultural, sporting, and educational events that enrich communities across Belgium. Every contribution makes a real difference.</p>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Bank Transfer</span>
+                <h2>Donate by Bank Transfer</h2>
+                <p>You can support G EVENTS ASBL by making a direct bank transfer to our account. Use the details below to complete your donation.</p>
+            </div>
+            <div class="iban-card">
+                <h3>G EVENTS ASBL Donation Account</h3>
+                <p class="iban-number" id="ibanDisplay">BE68 5390 0754 6035</p>
+                <div class="iban-meta">
+                    <div class="iban-meta-item"><strong>Account Holder:</strong> G EVENTS ASBL</div>
+                    <div class="iban-meta-item"><strong>BIC/SWIFT:</strong> GEBABEBB</div>
+                    <div class="iban-meta-item"><strong>Bank:</strong> BNP Paribas Fortis</div>
+                </div>
+                <button class="copy-btn" id="copyIbanBtn" onclick="copyIban()">
+                    &#128203; Copy IBAN to Clipboard
+                </button>
+                <p style="margin-top: 24px; color: var(--text-light); font-size: 0.95rem;">Please include your name as a reference so we can acknowledge your generous contribution.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Your Impact</span>
+                <h2>Where Your Donation Goes</h2>
+                <p>We are committed to using every euro effectively. Here is how your donation is allocated.</p>
+            </div>
+            <div class="allocation-grid">
+                <div class="allocation-card">
+                    <div class="allocation-percent">75%</div>
+                    <h3>Programs &amp; Events</h3>
+                    <p>The majority of your donation goes directly to organizing cultural events, concerts, conferences, sports competitions, and educational programs that serve our communities.</p>
+                </div>
+                <div class="allocation-card">
+                    <div class="allocation-percent">15%</div>
+                    <h3>Operations &amp; Logistics</h3>
+                    <p>A portion of your donation covers the essential costs of venue rental, equipment, materials, and other operational expenses needed to make our events happen.</p>
+                </div>
+                <div class="allocation-card">
+                    <div class="allocation-percent">10%</div>
+                    <h3>Growth &amp; Development</h3>
+                    <p>We invest a small portion in building our capacity to organize more and better events, ensuring that G EVENTS ASBL can continue to grow and serve more communities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Donate</span>
+                <h2>Your Donation Matters</h2>
+                <p>Every donation, no matter the size, helps us continue our mission of enriching communities.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">&#127917;</div>
+                    <h3>Fund Cultural Events</h3>
+                    <p>Your donation helps us organize concerts, art exhibitions, and cultural festivals that bring diverse communities together and celebrate creativity and cultural expression.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#127942;</div>
+                    <h3>Support Sports Programs</h3>
+                    <p>We host sporting events that promote health, teamwork, and fair competition. Your support helps us provide these opportunities to communities across Belgium.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#127891;</div>
+                    <h3>Create Scholarships</h3>
+                    <p>Your contribution helps us provide scholarships and awards that recognize outstanding achievements and support the development of talented individuals in our communities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#128218;</div>
+                    <h3>Education Programs</h3>
+                    <p>We organize conferences, workshops, and educational events that foster knowledge sharing and professional development. Your donation makes these programs possible.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#129309;</div>
+                    <h3>Strengthen Communities</h3>
+                    <p>Every event we organize builds stronger social bonds and creates lasting connections. Your support helps us build more cohesive, connected communities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#127758;</div>
+                    <h3>Promote Inclusivity</h3>
+                    <p>We work to ensure that our events are accessible to everyone. Your donation helps us remove barriers and create truly inclusive community experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Promise</span>
+                <h2>100% to Our Mission</h2>
+                <p>G EVENTS ASBL is a registered non-profit. We do not distribute profits. Every euro donated goes toward our mission of enriching communities through culture, sports, and education.</p>
+            </div>
+            <div class="content-text" style="max-width: 720px; margin: 0 auto;">
+                <p>As a Belgian ASBL (Association Sans But Lucratif), G EVENTS ASBL is legally prohibited from distributing profits to members, directors, or any other individuals. This means that every donation we receive is used exclusively for our charitable purposes.</p>
+                <p>We maintain strict financial controls and regular oversight to ensure that funds are used responsibly and effectively. Our governance structure, led by President Giovanni Fascianella and Administrator Wolfram Wambsganss, provides strategic direction and accountability for all financial decisions.</p>
+                <p>We publish regular reports on our activities and finances, and we welcome questions from donors about how their contributions are being used. Transparency is a core value of our organization, and we believe that donors have the right to know exactly how their generosity is making a difference.</p>
+                <p>If you have any questions about donations or would like to discuss how your contribution can make the greatest impact, please do not hesitate to <a href="contact.html">contact us</a>. We are grateful for your support and committed to using it wisely.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Thank You for Your Support</h2>
+                <p>Every donation helps us bring communities together through culture, sports, and education. Your generosity makes our work possible.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-outline-light">Contact Us</a>
+                    <a href="transparency.html" class="btn btn-accent">See How Funds Are Used</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="index.html" class="logo footer-logo">
+                        <span class="logo-icon">G</span>
+                        <span class="logo-text">EVENTS</span>
+                    </a>
+                    <p class="footer-desc">G EVENTS ASBL is a Belgian non-profit organization dedicated to enriching communities through cultural, sporting, and educational events. Enterprise: 0817.543.912 | VAT: BE0817543912</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
+                        <a href="#" aria-label="LinkedIn" class="social-link">LinkedIn</a>
+                        <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="mission.html">Our Mission</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="governance.html">Governance</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                        <li><a href="transparency.html">Transparency</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li>Wijnheuvelenstraat 308-310<br>Box 5103, 1030 Schaarbeek<br>Belgium</li>
+                        <li><a href="mailto:markluismr@gmail.com">markluismr@gmail.com</a></li>
+                        <li><a href="tel:+32470123456">+32 470 12 34 56</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 G EVENTS ASBL. All rights reserved. Enterprise: 0817.543.912 | VAT: BE0817543912</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        function copyIban() {
+            var iban = 'BE68 5390 0754 6035';
+            var btn = document.getElementById('copyIbanBtn');
+            navigator.clipboard.writeText(iban.replace(/\s/g, '')).then(function() {
+                btn.innerHTML = '&#10003; IBAN Copied!';
+                btn.classList.add('copied');
+                setTimeout(function() {
+                    btn.innerHTML = '&#128203; Copy IBAN to Clipboard';
+                    btn.classList.remove('copied');
+                }, 2500);
+            }).catch(function() {
+                var textArea = document.createElement('textarea');
+                textArea.value = iban;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                btn.innerHTML = '&#10003; IBAN Copied!';
+                btn.classList.add('copied');
+                setTimeout(function() {
+                    btn.innerHTML = '&#128203; Copy IBAN to Clipboard';
+                    btn.classList.remove('copied');
+                }, 2500);
+            });
+        }
+    </script>
+</body>
+</html>
