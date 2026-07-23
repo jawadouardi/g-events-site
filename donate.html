@@ -34,6 +34,8 @@
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="mission.html">Our Mission</a></li>
                 <li><a href="events.html">Events</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="news.html">News</a></li>
                 <li><a href="governance.html">Governance</a></li>
                 <li><a href="donate.html" class="active nav-donate">Donate</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -51,22 +53,38 @@
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Bank Transfer</span>
-                <h2>Donate by Bank Transfer</h2>
-                <p>You can support G EVENTS ASBL by making a direct bank transfer to our account. Use the details below to complete your donation.</p>
+                <span class="section-tag">Donate Now</span>
+                <h2>Make a Donation</h2>
+                <p>Support our mission by making a secure donation. Choose the method that works best for you.</p>
             </div>
-            <div class="iban-card">
-                <h3>G EVENTS ASBL Donation Account</h3>
-                <p class="iban-number" id="ibanDisplay">BE68 5390 0754 6035</p>
-                <div class="iban-meta">
-                    <div class="iban-meta-item"><strong>Account Holder:</strong> G EVENTS ASBL</div>
-                    <div class="iban-meta-item"><strong>BIC/SWIFT:</strong> GEBABEBB</div>
-                    <div class="iban-meta-item"><strong>Bank:</strong> BNP Paribas Fortis</div>
+            <div class="donate-methods">
+                <div class="donate-method-card">
+                    <div class="donate-method-icon">&#128179;</div>
+                    <h3>Bank Transfer (SEPA)</h3>
+                    <p>Make a direct bank transfer to our account. This is the most common and cost-effective way to donate from within Europe.</p>
+                    <div class="iban-card">
+                        <h4>G EVENTS ASBL Donation Account</h4>
+                        <p class="iban-number" id="ibanDisplay">BE68 5390 0754 6035</p>
+                        <div class="iban-meta">
+                            <div class="iban-meta-item"><strong>Account Holder:</strong> G EVENTS ASBL</div>
+                            <div class="iban-meta-item"><strong>BIC/SWIFT:</strong> GEBABEBB</div>
+                            <div class="iban-meta-item"><strong>Bank:</strong> BNP Paribas Fortis</div>
+                        </div>
+                        <button class="copy-btn" id="copyIbanBtn" onclick="copyIban()">
+                            &#128203; Copy IBAN to Clipboard
+                        </button>
+                        <p style="margin-top: 16px; color: var(--text-light); font-size: 0.9rem;">Please include your name as a reference so we can acknowledge your generous contribution.</p>
+                    </div>
                 </div>
-                <button class="copy-btn" id="copyIbanBtn" onclick="copyIban()">
-                    &#128203; Copy IBAN to Clipboard
-                </button>
-                <p style="margin-top: 24px; color: var(--text-light); font-size: 0.95rem;">Please include your name as a reference so we can acknowledge your generous contribution.</p>
+                <div class="donate-method-card">
+                    <div class="donate-method-icon">&#128231;</div>
+                    <h3>Donate by Email</h3>
+                    <p>Send us an email to initiate your donation. We will provide you with all the necessary details and confirm your contribution.</p>
+                    <a href="mailto:markluismr@gmail.com?subject=Donation%20to%20G%20EVENTS%20ASBL&body=Hello%20G%20EVENTS%20ASBL%2C%0A%0AI%20would%20like%20to%20make%20a%20donation%20to%20support%20your%20mission.%0A%0APlease%20provide%20me%20with%20the%20details%20to%20complete%20my%20donation.%0A%0AThank%20you." class="btn btn-primary donate-email-btn">
+                        &#9993; Email Us About Your Donation
+                    </a>
+                    <p style="margin-top: 16px; color: var(--text-light); font-size: 0.9rem;">We respond to all donation inquiries within 24 hours.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -179,9 +197,9 @@
                     </a>
                     <p class="footer-desc">G EVENTS ASBL is a Belgian non-profit organization dedicated to enriching communities through cultural, sporting, and educational events. Enterprise: 0817.543.912 | VAT: BE0817543912</p>
                     <div class="footer-social">
-                        <a href="#" aria-label="Facebook" class="social-link">Facebook</a>
-                        <a href="#" aria-label="LinkedIn" class="social-link">LinkedIn</a>
-                        <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+                        <a href="https://www.facebook.com/geventsasbl" aria-label="Facebook" class="social-link" target="_blank" rel="noopener">Facebook</a>
+                        <a href="https://www.linkedin.com/company/g-events-asbl" aria-label="LinkedIn" class="social-link" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://www.instagram.com/g-events-asbl" aria-label="Instagram" class="social-link" target="_blank" rel="noopener">Instagram</a>
                     </div>
                 </div>
                 <div class="footer-col">
@@ -190,6 +208,8 @@
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="mission.html">Our Mission</a></li>
                         <li><a href="events.html">Events</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="news.html">News</a></li>
                         <li><a href="governance.html">Governance</a></li>
                         <li><a href="donate.html">Donate</a></li>
                     </ul>
@@ -213,7 +233,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 G EVENTS ASBL. All rights reserved. Enterprise: 0817.543.912 | VAT: BE0817543912</p>
+                <p>&copy; 2025 G EVENTS ASBLcopy; 2026 G EVENTS ASBL. All rights reserved. Enterprise: 0817.543.912 | VAT: BE0817543912</p>
             </div>
         </div>
     </footer>

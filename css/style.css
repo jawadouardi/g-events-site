@@ -1101,6 +1101,74 @@ h2 {
     background: #059669;
 }
 
+.donate-methods {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.donate-method-card {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 40px 32px;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform var(--transition);
+}
+
+.donate-method-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+}
+
+.donate-method-icon {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+
+.donate-method-card h3 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text);
+}
+
+.donate-method-card > p {
+    color: var(--text-light);
+    margin-bottom: 24px;
+    font-size: 0.95rem;
+}
+
+.donate-method-card .iban-card {
+    max-width: 100%;
+    box-shadow: none;
+    border: 2px solid var(--primary);
+    padding: 32px 24px;
+}
+
+.donate-method-card .iban-card h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: var(--primary);
+}
+
+.donate-method-card .iban-number {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.donate-email-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 32px;
+    font-size: 1rem;
+}
+
 .allocation-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1333,4 +1401,5 @@ h2 {
     .iban-card { padding: 32px 20px; }
     .iban-number { font-size: 1.3rem; letter-spacing: 1px; }
     .iban-meta { flex-direction: column; gap: 8px; }
+    .donate-methods { grid-template-columns: 1fr; }
 }
